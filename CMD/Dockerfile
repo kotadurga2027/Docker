@@ -1,4 +1,4 @@
 From almalinux:9
 Run dnf install nginx -y
-Run dnf install node:24-alpine
+CMD ["sleep", "1000"]
 CMD ["nginx", "-g","daemon off;"]
