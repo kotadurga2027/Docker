@@ -1,5 +1,5 @@
 FROM almalinux:9
-RUN dnf install nginx
+RUN dnf install nginx -y
 RUN rm -rf usr/share/nginx/html/index.html
 ADD https://docs.docker.com usr/share/nginx/html/index.html
 RUN chmod +r usr/share/nginx/html/index.html
