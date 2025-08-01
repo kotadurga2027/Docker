@@ -4,4 +4,4 @@ RUN rm -rf usr/share/nginx/html/index.html
 ADD https://docs.docker.com usr/share/nginx/html/index.html
 RUN chmod +r usr/share/nginx/html/index.html
 ADD sample-2.tar /tmp/
-CMD ["nginx" "-g" "daemon off;"]
+CMD ["nginx","-g","daemon off;"]
