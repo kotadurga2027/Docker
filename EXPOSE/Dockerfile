@@ -3,6 +3,5 @@ RUN dnf install nginx -y
 RUN rm -rf /usr/share/nginx/html/index.html
 ADD https://www.google.com /usr/share/nginx/html/index.html
 RUN chmod +r /usr/share/nginx/html/index.html
-ADD sample-2.tar /tmp/
 EXPOSE 80
 CMD ["nginx", "-g","daemon off;"]
