@@ -3,6 +3,5 @@ ENV COURSE="Devops" \
     TRAINER="kotadurga" \
     DURATION="120hrs"
 ARG LANGUAGE="Telugu"
-ENV LANGUAGE="English"
 RUN echo "I am Learning course is:${COURSE}, trainer is:${TRAINER},duration is:${DURATION},Language is:${LANGUAGE}"
 CMD ["sleep","1000"]
