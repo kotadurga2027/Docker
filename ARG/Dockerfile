@@ -1,4 +1,4 @@
-FROM almalinux:${version:-9}
+FROM almalinux:9
 ENV COURSE="Devops" \
     TRAINER="kotadurga" \
     DURATION="120hrs"
